@@ -43,7 +43,6 @@ final class NetworkService: NetworkServiceProtocol {
         AF.request(baseURL, parameters: parameters).validate().responseDecodable(of: News.self) { response in
             switch response.result {
             case .success(let newsResponse):
-//                RealmManager.shared.saveArticles(newsResponse.articles)
                 completion(.success(newsResponse.articles))
             case .failure(let error):
                 completion(.failure(error))

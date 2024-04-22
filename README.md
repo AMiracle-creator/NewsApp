@@ -7,5 +7,4 @@
 - Архитектура - MVP.
 - Для описания UI использовался UIKit, SnapKit. Коллекция реализована с помощью UICollectionViewCompositionalLayout и UICollectionViewDiffableDataSource.
 - Cетевой слой написан с помощью Alamofire. Загрузка и кеширование картинок с помощью Kingfisher.
-- Менеджер зависимостей - CocoaPods. 
-
+- Менеджер зависимостей - CocoaPods. Используемые библиотеки (SnapKit, Alamofire, Kinggisher, RealmSwift) 
